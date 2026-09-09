@@ -1,4 +1,4 @@
-# Delivry App V4.0 — Unified with Admin Panel Database
+# Delivery App V4.0 — Unified with Admin Panel Database
 
 Delivery-man mobile app (Expo + React Native + TypeScript + Supabase).
 

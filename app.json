@@ -1,20 +1,20 @@
 {
   "expo": {
-    "name": "Delivry",
-    "slug": "delivry",
+    "name": "Delivery",
+    "slug": "delivery",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/app_icon.png",
-    "scheme": "delivry",
+    "scheme": "delivery",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.delivry.app",
+      "bundleIdentifier": "com.delivery.app",
       "icon": "./assets/images/app_icon.png"
     },
     "android": {
-      "package": "com.delivry.app",
+      "package": "com.delivery.app",
       "adaptiveIcon": {
         "backgroundColor": "#3B82F6",
         "foregroundImage": "./assets/images/app_icon.png"
@@ -53,6 +53,6 @@
         "projectId": ""
       }
     },
-    "owner": "delivry"
+    "owner": "delivery"
   }
 }

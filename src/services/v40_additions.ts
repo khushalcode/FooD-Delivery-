@@ -44,19 +44,19 @@ import type {
 // ---------------------------------------------------------------------------
 
 const MOCK_CONFIG: ConfigModel = {
-  business_name: 'Delivry',
+  business_name: 'Delivery',
   logo: null,
   address: 'Demo address',
   phone: '+1-800-123-4567',
-  email: 'support@delivry.app',
+  email: 'support@delivery.app',
   country: 'United States',
   default_location: { lat: 40.7128, lng: -74.006 },
   currency_symbol: '$',
   currency_symbol_direction: 'left',
   app_minimum_version_android: 4.0,
-  app_url_android: 'https://play.google.com/store/apps/details?id=com.delivry.app',
+  app_url_android: 'https://play.google.com/store/apps/details?id=com.delivery.app',
   app_minimum_version_ios: 4.0,
-  app_url_ios: 'https://apps.apple.com/app/delivry/id000000000',
+  app_url_ios: 'https://apps.apple.com/app/delivery/id000000000',
   customer_verification: 1,
   schedule_order: 1,
   order_delivery_verification: 1,

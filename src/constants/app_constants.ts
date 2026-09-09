@@ -10,7 +10,7 @@
 import { AppMode } from './enums';
 
 export const AppConstants = {
-  appName: 'Delivry',
+  appName: 'Delivery',
   appVersion: 4.0,
 
   // App mode: 'delivery' (orders) or 'ride' (ride-share module)
