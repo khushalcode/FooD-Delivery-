@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "FoodHub Driver",
+    "slug": "foodhub-driver",
+    "version": "5.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app_icon.png",
+    "scheme": "foodhubdriver",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.foodhub.driver",
+      "icon": "./assets/images/app_icon.png"
+    },
+    "android": {
+      "package": "com.foodhub.driver",
+      "adaptiveIcon": {
+        "backgroundColor": "#FF6B35",
+        "foregroundImage": "./assets/images/app_icon.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/app_icon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FF6B35",
+          "image": "./assets/images/app_icon.png",
+          "imageWidth": 200
+        }
+      ],
+      "expo-secure-store",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": false,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "supabaseUrl": "https://YOUR-PROJECT-REF.supabase.co",
+      "supabaseAnonKey": "YOUR-SUPABASE-ANON-KEY",
+      "eas": {
+        "projectId": ""
+      }
+    },
+    "owner": "foodhub"
+  }
+}

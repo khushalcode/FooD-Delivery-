@@ -1,0 +1,33 @@
+-- =====================================================================
+-- Delivery App — Schema Pointer
+-- ---------------------------------------------------------------------
+-- The delivery app now shares the SAME Supabase database as the admin
+-- panel and customer app. The full schema is owned by the admin panel:
+--
+--     admin_panel/supabase/base_schema.sql         ← CREATE TABLE
+--     admin_panel/supabase/init.sql                 ← ALTER (admin)
+--     admin_panel/supabase/seed_demo.sql            ← demo admin +
+--                                                       demo customer +
+--                                                       demo delivery-man +
+--                                                       sample orders
+--     admin_panel/supabase/bootstrap_combined.sql   ← all-in-one
+--
+-- Tables the delivery app reads/writes (with RLS):
+--
+--   AUTHENTICATED (auth.uid = current_delivery_man_id()):
+--     orders           — SELECT, UPDATE (only rows where delivery_man_id
+--                         matches the current DM)
+--     order_details    — SELECT (via parent order ownership)
+--     delivery_men     — UPDATE (own row only)
+--
+--   PUBLIC READ (anon + authenticated):
+--     stores           — for store info on orders
+--     items            — for item info on order_details
+--     users            — for customer info (limited fields, is_active=true)
+--
+-- Demo delivery-man login (created by seed_demo.sql):
+--   Email:    delivery@demo.com
+--   Password: Delivery@1234
+--
+-- See admin_panel/README.md for full setup instructions.
+-- =====================================================================
