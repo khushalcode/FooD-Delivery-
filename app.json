@@ -1,22 +1,22 @@
 {
   "expo": {
-    "name": "FoodHub Driver",
-    "slug": "foodhub-driver",
-    "version": "5.0.0",
+    "name": "Delivry",
+    "slug": "delivry",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/app_icon.png",
-    "scheme": "foodhubdriver",
+    "scheme": "delivry",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.foodhub.driver",
+      "bundleIdentifier": "com.delivry.app",
       "icon": "./assets/images/app_icon.png"
     },
     "android": {
-      "package": "com.foodhub.driver",
+      "package": "com.delivry.app",
       "adaptiveIcon": {
-        "backgroundColor": "#FF6B35",
+        "backgroundColor": "#3B82F6",
         "foregroundImage": "./assets/images/app_icon.png"
       },
       "predictiveBackGestureEnabled": false
@@ -31,7 +31,7 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#FF6B35",
+          "backgroundColor": "#3B82F6",
           "image": "./assets/images/app_icon.png",
           "imageWidth": 200
         }
@@ -53,6 +53,6 @@
         "projectId": ""
       }
     },
-    "owner": "foodhub"
+    "owner": "delivry"
   }
 }

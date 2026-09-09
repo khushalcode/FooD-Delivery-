@@ -14,10 +14,10 @@ import { Dimensions } from '@/constants/dimensions';
 import { CustomAppBar } from '@/components/CustomAppBar';
 
 const TERMS_CONTENT = `
-Welcome to FoodHub Driver. By accessing or using our services, you agree to be bound by these Terms & Conditions. Please read them carefully.
+Welcome to Delivry. By accessing or using our services, you agree to be bound by these Terms & Conditions. Please read them carefully.
 
 1. ACCEPTANCE OF TERMS
-By registering an account and using the FoodHub Driver platform, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree to any part of these terms, you may not access the service.
+By registering an account and using the Delivry platform, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree to any part of these terms, you may not access the service.
 
 2. VENDOR RESPONSIBILITIES
 As a vendor, you are responsible for maintaining the accuracy of your store information, providing quality products, fulfilling orders in a timely manner, and complying with all applicable laws and regulations in your jurisdiction. You must ensure that all product descriptions, images, and prices are accurate and up to date.
@@ -36,7 +36,7 @@ We may update these Terms from time to time. Continued use of the app after chan
 `;
 
 const PRIVACY_CONTENT = `
-This Privacy Policy describes how FoodHub Driver collects, uses, and protects your personal information.
+This Privacy Policy describes how Delivry collects, uses, and protects your personal information.
 
 1. INFORMATION WE COLLECT
 We collect information you provide directly, such as your store name, owner name, contact details, and address. We also collect usage data including order history, device information, and approximate location (with your consent) to provide better services.

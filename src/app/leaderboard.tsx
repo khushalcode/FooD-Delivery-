@@ -204,7 +204,7 @@ const styles = StyleSheet.create({
     borderRadius: Dimensions.radiusSmall,
   },
   myRankBadgeText: {
-    color: '#DC2626',
+    color: '#3B82F6',
     fontWeight: '900',
     fontSize: 12,
   },

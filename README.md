@@ -1,4 +1,4 @@
-# FoodHub Driver App (V5.0)
+# Delivry App V4.0 — Unified with Admin Panel Database
 
 Delivery-man mobile app (Expo + React Native + TypeScript + Supabase).
 
@@ -99,4 +99,3 @@ output/
 - `admin_panel/` — Next.js 16 admin panel (manages stores, items, orders, delivery_men)
 - `customer_app/customar/` — Expo customer app (places orders)
 - `delivery_app/output/` — **this app** — Expo delivery-man app (fulfills orders)
-# FooD-Delivery-

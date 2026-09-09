@@ -1,59 +1,63 @@
 /**
- * Color resources — FoodHub brand.
- * Updated from original red (#DC2626) to FoodHub orange (#FF6B35) + deep red (#C7283F).
- * Matches the FoodHub admin panel theme.
+ * Color resources — FoodHub Delivery App
+ * Unified with the FoodHub Admin dashboard (Shopeers-inspired light SaaS palette).
+ * Primary: #3B82F6 (vibrant blue) — matches admin dashboard.
  */
 
 export const COLORS = {
-  // Brand — FoodHub orange/red
-  primary: '#FF6B35',
-  primaryDark: '#C7283F',
-  primaryLight: '#FF8C42',
+  // Brand
+  primary: '#3B82F6',
+  primaryDark: '#1E40AF',
+  primaryLight: '#EFF6FF',
 
-  // Light theme
+  // Light theme — matches admin dashboard globals.css
   light: {
-    primary: '#FF6B35',
-    secondaryHeader: '#C7283F',
-    disabled: '#999D9F',
-    hint: '#9F9F9F',
+    primary: '#3B82F6',
+    secondaryHeader: '#3B82F6',
+    disabled: '#9CA3AF',
+    hint: '#9CA3AF',
     card: '#FFFFFF',
-    scaffoldBg: '#FFF8F2',
-    textPrimary: '#1A1A2E',
-    textSecondary: '#6B7280',
-    textTertiary: '#9F9F9F',
-    shadow: 'rgba(255,107,53,0.08)',
-    divider: '#D1D5DB',
-    border: '#E5E5E5',
-    inputFill: '#FFF4EF',
-    success: '#16A34A',
-    warning: '#FFA500',
-    error: '#DC2626',
-    surfaceVariant: '#FFF4EF',
+    scaffoldBg: '#F4F5F7', // cool light gray canvas (same as admin)
+    textPrimary: '#111827', // near-black headings
+    textSecondary: '#6B7280', // medium gray
+    textTertiary: '#9CA3AF', // light gray
+    shadow: 'rgba(0, 0, 0, 0.04)',
+    divider: '#E5E7EB',
+    border: '#E5E7EB',
+    inputFill: '#F3F4F6',
+    success: '#10B981', // emerald green
+    warning: '#F59E0B', // amber
+    error: '#EF4444', // red
+    surfaceVariant: '#F9FAFB',
     bottomNavBg: '#FFFFFF',
     overlayBg: 'rgba(0, 0, 0, 0.5)',
+    accent: '#EFF6FF', // very light blue background
+    accentForeground: '#1D4ED8',
   },
 
-  // Dark theme
+  // Dark theme — keeps the same primary blue for brand consistency
   dark: {
-    primary: '#FF8C42',
-    secondaryHeader: '#C7283F',
-    disabled: '#6f7275',
-    hint: '#bebebe',
-    card: '#1A1A2E',
-    scaffoldBg: '#0F0F1A',
+    primary: '#3B82F6',
+    secondaryHeader: '#3B82F6',
+    disabled: '#6B7280',
+    hint: '#9CA3AF',
+    card: '#1F2937',
+    scaffoldBg: '#111827',
     textPrimary: '#FFFFFF',
-    textSecondary: '#B0B0B0',
-    textTertiary: '#7C7C7C',
-    shadow: 'rgba(255,107,53,0.12)',
-    divider: '#3A3A4E',
-    border: '#2A2A3E',
-    inputFill: '#1F1F2E',
-    success: '#16A34A',
-    warning: '#FFA500',
+    textSecondary: '#D1D5DB',
+    textTertiary: '#9CA3AF',
+    shadow: 'rgba(0, 0, 0, 0.3)',
+    divider: '#374151',
+    border: '#374151',
+    inputFill: '#374151',
+    success: '#10B981',
+    warning: '#F59E0B',
     error: '#EF4444',
-    surfaceVariant: '#1A1A2E',
-    bottomNavBg: '#0F0F1A',
+    surfaceVariant: '#1F2937',
+    bottomNavBg: '#1F2937',
     overlayBg: 'rgba(0, 0, 0, 0.7)',
+    accent: '#1E3A8A',
+    accentForeground: '#93C5FD',
   },
 } as const;
 

@@ -29,8 +29,8 @@ const STATUS_COLORS: Record<Order['order_status'], string> = {
   handover: '#FF5722',
   picked_up: '#00BCD4',
   delivered: '#28A745',
-  canceled: '#DC2626',
-  failed: '#DC2626',
+  canceled: '#3B82F6',
+  failed: '#3B82F6',
   refunded: '#607D8B',
   returned: '#795548',
 };

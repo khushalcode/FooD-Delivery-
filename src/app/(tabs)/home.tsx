@@ -567,7 +567,7 @@ const styles = StyleSheet.create({
     borderRadius: Dimensions.radiusSmall,
   },
   referralBtnText: {
-    color: '#DC2626',
+    color: '#3B82F6',
     ...Typography.bodySmall,
     fontWeight: '700',
   },

@@ -35,7 +35,7 @@ const STATUS_COLORS: Record<Ride['status'], string> = {
   accepted: '#2196F3',
   ongoing: '#9C27B0',
   completed: '#28A745',
-  cancelled: '#DC2626',
+  cancelled: '#3B82F6',
 };
 
 export default function RideDetailsScreen() {

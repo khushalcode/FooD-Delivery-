@@ -10,7 +10,7 @@
 import { AppMode } from './enums';
 
 export const AppConstants = {
-  appName: 'FoodHub Driver',
+  appName: 'Delivry',
   appVersion: 4.0,
 
   // App mode: 'delivery' (orders) or 'ride' (ride-share module)
@@ -19,7 +19,7 @@ export const AppConstants = {
   fontFamily: 'Roboto',
 
   // Base URL (kept for parity; the RN port uses Supabase instead of this REST base)
-  baseUrl: 'https://foodhub-admin.6amtech.com',
+  baseUrl: 'https://6ammart-admin.6amtech.com',
   polylineMapKey: 'YOUR_MAP_KEY_HERE',
 
   // ---- Shared Key (parity with Flutter V4.0) ----
